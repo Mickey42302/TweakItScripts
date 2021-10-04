@@ -1,2 +1,7 @@
 # TweakItScripts
-This repository contains SH scripts that can be used to tweak your device.
+
+The Tweak It app is a tool that can be used to access advanced settings and other hidden features on your device. I created this app and these scripts to help users utilize the many features which are not available by default. In this repository, you will find the SH scripts that can be executed to make patches to the Google Play Services database on your device. To use these scripts, you must have root access, BusyBox, and an SQLite3 binary installed. If you have not rooted your device, I recommend using Magisk. As for the SQLite3 binary, this can be installed manually or by using a Magisk module.
+
+To run these scripts, download the SH files and save them to your device. Then, open a command-line shell using ADB or your preferred Terminal app. Once you do this, you need to become the root user by running "su". If you have rooted your device, you should now have a root shell. Once that is done, you can run the script by using "sh <filename>.sh" in the directory where you placed the files (if you are not already in this directory, use "cd <path>"). If you get a permission denied error, you can flag the script as an executable by using "chmod +x <filename". If you do not have this command installed on your device by default, you will need to install BusyBox (this is also available as a Magisk module).
+
+Once you have finished patching your database using these scripts, you will need to restart your device in order for the changes to take effect.
