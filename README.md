@@ -1,4 +1,4 @@
-# TweakItScripts
+# Tweak It Scripts
 
 The Tweak It app is a tool that can be used to access advanced settings and other hidden features on your device. I created this app and these scripts to help users utilize the many features which are not available by default. In this repository, you will find the SH scripts that can be executed to make patches to the Google Play Services database on your device. To use these scripts, you must have root access, BusyBox, and an SQLite3 binary installed. If you have not rooted your device, I recommend using Magisk. As for the SQLite3 binary, this can be installed manually or by using a Magisk module.
 
